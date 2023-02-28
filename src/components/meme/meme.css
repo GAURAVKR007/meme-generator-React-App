@@ -1,0 +1,47 @@
+.container{
+    padding: 40px;
+}
+
+.inputs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 15% 0 15%;
+    margin: 20px;
+}
+
+.input1 {
+    width: 40%;
+    height: 40px;
+    text-indent: 15px;
+    border-radius: 10px;
+    border: 2px solid rgb(173, 159, 159);
+}
+
+.input2 {
+    width: 40%;
+    border-radius: 10px;
+    height: 40px;
+    text-indent: 15px;
+    border: 2px solid rgb(173, 159, 159);
+}
+
+.btn {
+    margin-top: 15px;
+    color: white;
+    width: 64%;
+    cursor: pointer;
+    text-align: center;
+    height: 50px;
+    margin-left: 290px;
+    border-radius: 10px;
+    background: linear-gradient(315deg, rgba(97,97,241,1) 0%, rgba(103,152,194,1) 17%, rgba(145,143,185,1) 24%, rgba(62,101,223,1) 40%, rgba(89,103,173,1) 66%, rgba(58,101,221,1) 91%, rgba(46,102,215,1) 94%);
+}
+
+.btn:active {
+    transform: scale(0.97);
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
